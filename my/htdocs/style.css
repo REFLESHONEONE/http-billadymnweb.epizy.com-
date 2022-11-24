@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Rubik Microbe", cursive;
+}
+.container-center {
+  border-top: 0.75rem solid #e8f9fd;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  min-width: 30rem;
+  min-height: 90rem;
+  background-color: #d6e4e5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .logo {
+  float: left;
+  color: #497174;
+  padding: 0.9rem;
+  position: fixed;
+  margin: 1.7rem;
+  border: 0.3rem solid white;
+  box-shadow: 0.2rem 0.2rem 0.8rem #efefef;
+  background-color: white;
+  border-radius: 3rem;
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 2rem;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.container .logo-text {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  color: #497174;
+  user-select: none;
+}
+.container .menu {
+  list-style: none;
+  float: right;
+}
+.menu li {
+  display: inline-block;
+  padding: 0.7rem;
+  margin: 1.7rem;
+}
+.menu a {
+  color: #497174;
+  text-decoration: none;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.menu a:hover {
+  border-bottom: 0.4rem solid #efefef;
+  border-radius: 0.4rem;
+  transition: all 2ms;
+}
+/* center starts */
+.img-tags {
+  float: righct;
+}
+.img-tags img {
+  object-position: right;
+  width: 30rem;
+  float: left;
+  margin-left: 10%;
+  padding: 0.7rem;
+  border-radius: 5%;
+  box-shadow: 0.5rem 0.5rem 2rem black;
+}
+.img-tags .text-tags {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1.5rem;
+  text-transform: capitalize;
+  color: #497174;
+}
+.img-tags .img-tgs {
+  font-size: 7rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.i-tags {
+  font-size: 7rem;
+  margin-top: 3rem;
+}
+
+.i-tags i {
+  color: #497174;
+  font-size: 10rem;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+.i-tags i:hover {
+  color: #c69749;
+  cursor: pointer;
+  transition: all 4s;
+}
+.text-tt {
+  display: inline-block;
+  margin: 15rem auto;
+  padding: 0.7rem;
+  border: 0.5rem solid white;
+  text-transform: capitalize;
+  background-color: white;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+}
+.contact-text {
+  font-size: 7rem;
+  text-align: center;
+  padding: 4rem;
+}
+/* media-social */
+.media-social {
+  list-style: none;
+  margin-left: 75rem;
+}
+.media-social li {
+  margin: 0.4rem;
+}
+.media-social a {
+  color: #497174;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+}
+.icon-old {
+  font-size: 2rem;
+}
+
+.w3sch {
+  width: 10%;
+  margin-left: 45%;
+  margin-top: 10rem;
+  border-radius: 5rem;
+  box-shadow: 0.5rem 0.5rem 2rem black;
+  transform: rotate(-25deg);
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+}
+footer h2 {
+  color: white;
+  text-align: center;
+  padding: 2.4rem;
+  font-size: 1.9rem;
+}
